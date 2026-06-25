@@ -1,10 +1,12 @@
 name: Publish to npm
 
-# Publica no npm quando você cria uma Release no GitHub.
+# Publica no npm ao criar uma Release no GitHub, ou manualmente pelo botão
+# "Run workflow" na aba Actions (workflow_dispatch).
 # Pré-requisito: secret NPM_TOKEN (Automation token) no repositório.
 on:
   release:
     types: [published]
+  workflow_dispatch:
 
 permissions:
   contents: read
