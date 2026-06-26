@@ -14,7 +14,7 @@
 export interface SMSGoOptions {
   /** Chave permanente da conta (painel → Minha conta → API). */
   apiKey: string
-  /** Base da API. Default: https://app.smsgo.com.br */
+  /** Base da API. Default: https://api.smsgo.com.br */
   baseUrl?: string
   /** Implementação de fetch (default: fetch global do Node 18+). */
   fetch?: typeof fetch
@@ -80,7 +80,7 @@ export class SMSGoError extends Error {
   }
 }
 
-const DEFAULT_BASE_URL = 'https://app.smsgo.com.br'
+const DEFAULT_BASE_URL = 'https://api.smsgo.com.br'
 // Token tem validade de 48h; renova com folga aos 47h.
 const TOKEN_TTL_MS = 47 * 60 * 60 * 1000
 
