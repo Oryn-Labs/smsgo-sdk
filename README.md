@@ -130,9 +130,10 @@ const smsgo = new SMSGo({
 
 ## Exemplos
 
-Rodáveis na pasta [`examples/`](./examples) (Node 18+):
+Na pasta [`examples/`](./examples) (Node 18+). Para rodar a partir do repositório clonado, instale antes — o `npm install` já builda o `dist` (via `prepare`) e os exemplos resolvem o pacote por *self-reference*:
 
 ```bash
+npm install
 SMSGO_KEY=suachave node examples/send-otp.mjs +5511999990000
 ```
 
