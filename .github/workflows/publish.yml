@@ -23,6 +23,12 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: npm install
       - run: npm run build
+      # Valida o NPM_TOKEN sem publicar: imprime o usuário npm se o token
+      # autenticar; falha aqui (e aborta o publish) se estiver errado/ausente.
+      - name: Validar NPM_TOKEN (whoami)
+        run: npm whoami
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
