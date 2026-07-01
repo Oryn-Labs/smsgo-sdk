@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/@orynlabs/smsgo.svg)](https://www.npmjs.com/package/@orynlabs/smsgo)
 [![downloads](https://img.shields.io/npm/dm/@orynlabs/smsgo.svg)](https://www.npmjs.com/package/@orynlabs/smsgo)
-[![CI](https://github.com/SMSFy/smsgo-sdk-nodejs/actions/workflows/ci.yml/badge.svg)](https://github.com/SMSFy/smsgo-sdk-nodejs/actions/workflows/ci.yml)
+[![CI](https://github.com/sms-go/smsgo-sdk-nodejs/actions/workflows/ci.yml/badge.svg)](https://github.com/sms-go/smsgo-sdk-nodejs/actions/workflows/ci.yml)
 [![license](https://img.shields.io/npm/l/@orynlabs/smsgo.svg)](./LICENSE)
 
 SDK oficial **Node.js / TypeScript** para a [SMSGo](https://smsgo.com.br) — a API de SMS simples para o Brasil. Envie **OTP/2FA, alertas transacionais e campanhas** com algumas linhas de código.

@@ -15,10 +15,10 @@
   "homepage": "https://smsgo.com.br",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SMSFy/smsgo-sdk-nodejs.git"
+    "url": "git+https://github.com/sms-go/smsgo-sdk-nodejs.git"
   },
   "bugs": {
-    "url": "https://github.com/SMSFy/smsgo-sdk-nodejs/issues"
+    "url": "https://github.com/sms-go/smsgo-sdk-nodejs/issues"
   },
   "license": "MIT",
   "author": "SMSGo",
