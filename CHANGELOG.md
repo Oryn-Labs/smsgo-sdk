@@ -4,6 +4,15 @@ Todas as mudanças relevantes deste pacote são documentadas aqui.
 O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.2.1] - 2026-07-01
+
+### Corrigido
+
+- **Docs:** removida a seção "Ambiente local" do README, que exibia
+  `baseUrl: 'http://localhost:3333'` na página do pacote no npm. O default já é
+  a API pública (`https://api.smsgo.com.br`); o `baseUrl` só deve ser alterado se
+  orientado pela SMSGo. Sem mudança de código.
+
 ## [0.2.0] - 2026-06-30
 
 ### Adicionado
